@@ -38,6 +38,7 @@ for (var i = 0; i < authSwitchBtns.length; i++) {
         }
     }
 }
+
 var filterE = document.querySelector('.home-filter__btn');
 console.log(filterE);
 function viec1() {
