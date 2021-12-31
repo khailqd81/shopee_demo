@@ -47,5 +47,6 @@ function viec1() {
 function viec2() {
     console.log('function 2');
 }
+
 filterE.addEventListener('click',viec1);
 filterE.addEventListener('click',viec2);
