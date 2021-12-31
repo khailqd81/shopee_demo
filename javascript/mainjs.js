@@ -12,11 +12,13 @@ for (var i = 0; i < headerSortItems.length; i++) {
 // Auth Login (Dang ky dang nhap)
 var userItem = document.querySelector('.header__navbar-user');
 var modal = document.querySelector('.modal');
+
 // Click on usert
 var modalOverplay = document.querySelector('.modal__overplay');
 userItem.onclick = function () {
     modal.style.display = 'flex';
 }
+
 // Click close
 modalOverplay.onclick = function () {
     modal.style.display = 'none';
@@ -38,7 +40,11 @@ for (var i = 0; i < authSwitchBtns.length; i++) {
         }
     }
 }
+<<<<<<< HEAD
 
+=======
+// New comment test git
+>>>>>>> 3464586ef6f537270f7d9e32e39cffdcb22b6d00
 var filterE = document.querySelector('.home-filter__btn');
 console.log(filterE);
 function viec1() {
